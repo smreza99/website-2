@@ -148,6 +148,26 @@ body{
 }
 /**main section ends here**/
 
+/**banner-section start here**/
+
+.banner-section h1{
+text-align: center;
+}
+.banner-section .messi{
+    width: 900px;
+    margin: 10px;
+    padding: 10px;
+}
+.banner-section .messi{
+    background-size: cover;
+    background-position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+/**banner-section ends here**/
+
 
 /**footer section start here**/
 .hr{
