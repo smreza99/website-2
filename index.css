@@ -161,4 +161,9 @@ body{
 
 }
 
+.name{
+    text-align: center;
+    justify-content: center;
+}
+
 /**footer section ends here**/
