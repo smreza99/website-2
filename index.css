@@ -1,0 +1,164 @@
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+
+
+}
+
+body{
+    background-color: blanchedalmond;
+}
+/**header section start here**/
+.top-section{
+    background-color: black;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 750px;
+    height: 500px;
+
+    padding: 15px 10px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    display: flex;
+    background-position: relative;
+
+
+
+}
+.left .fa-arrow-right-long{
+    color: black;
+}
+.card .left{
+    width: 100%;
+}
+.card .left h1{
+    font-size:2.5rem;
+}
+
+.card .left p{
+   font-size: 0.8rem;
+}
+.card .right{
+    width:100%
+}
+/**header section ends here**/
+
+/**main section start here**/
+.button-section{
+    margin: 10px;
+    list-style: none;
+    background-color: black;
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+
+
+
+}
+.button-section{
+    width: 20%;
+}
+.btn{
+    width: 125px;
+    padding: 2px 7px;
+    margin-right: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+
+.player-section{
+    width: 80%;
+}
+
+.main{
+    display: flex;
+    margin-top: 50px;
+
+}
+.main .button-section{
+    flex-direction: column;
+}
+
+.para{
+    font-size: 0.9rem;
+    display: block;
+}
+.card1 .img{
+    width: 60px;
+    height: 60px;
+}
+.card1 .para{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main, .player-section, .cardview, .card1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: column; 
+    grid-gap: 10px;
+    margin: 10px;  
+
+}
+
+
+
+  
+
+
+
+
+
+.cardview:hover{
+    cursor: pointer;
+
+}
+.footer{
+    background-color: maroon;
+    color: white;
+}
+.footer h1{
+    text-align: center;
+    margin: 15px;
+
+}
+/**main section ends here**/
+
+
+/**footer section start here**/
+.hr{
+    background-color: gray;
+    border: 1px solid gray;
+    width: 800px;
+    margin-bottom: 30px;
+}
+.footer ul li{
+    list-style: none;
+    display: inline;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px;
+    padding: 2px;
+
+}
+
+/**footer section ends here**/
