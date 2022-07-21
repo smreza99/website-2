@@ -37,6 +37,7 @@ body{
 }
 .left .fa-arrow-right-long{
     color: black;
+    font-size: 0.9rem;
 }
 .card .left{
     width: 100%;
@@ -104,7 +105,7 @@ body{
 
 .para{
     font-size: 0.9rem;
-    display: block;
+    display: inline-block;
 }
 .card1 .img{
     width: 60px;
@@ -112,7 +113,10 @@ body{
 }
 .card1 .para{
     display: flex;
-    flex-direction: column;
+    flex-direction: right;
+    margin-top: 20px;
+    
+
 
 }
 
